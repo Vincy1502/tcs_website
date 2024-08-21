@@ -1,0 +1,49 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+li,ul,a,.list1{
+display: inline;
+text-decoration-line: none;
+}
+ul{
+    margin-left: 50%;
+}
+.list1{
+    padding-left: 50px;
+}
+.list{padding-left: 30px;}
+
+.list:hover{
+    color: rgb(241, 248, 235);
+    border: 5px;
+    background-color: rgb(121, 198, 243);
+    border-radius: 50px;
+}
+li:visited{
+    background-color: blue;
+    color:red;
+    
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size:large;
+}
+
+.parah p{
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+.img1{
+    margin-inline: 30%;
+}
+.img2{padding-left: 30%;}
+
+.foot{
+    padding-left: 170px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        label,input{
+            padding: 5px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>CONTACT</h2>
+    </header>
+    <form>
+        <label for="email">Email id:</label>
+        <input type="email" id="email" placeholder="xyz@gmail.com"><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="enter your name"><br>
+        <label for="phno">Phone No:</label>
+        <input type="tel" id="phno" pattern="[0-9]{5}-[0-9]{5}" placeholder="12345-67890"><br>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dob" ><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="gender" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <label for="pword">Password:</label>
+        <input type="password" id="pword" placeholder="enter your password"><br>
+        <label for="lang">Select the language known:</label> <br>
+        <input type="checkbox" id="lang1" name="lang1"  value="tamil">
+        <label for="lang1">Tamil</label><br>
+        <input type="checkbox" id="lang2" name="lang2"  value="English">
+        <label for="lang2">English</label><br>
+        <input type="checkbox" id="lang3" name="lang3"  value="Hindi">
+        <label for="lang3">Hindi</label><br>
+        <input type="checkbox" id="lang4" name="lang4"  value="Others">
+        <label for="lang4">Others</label><br>
+        <label for="myfile">Upload CV:</label>
+        <input type="file" id="myfile" name="myfile"><br>
+
+        <div>
+            <button>Sign in</button>
+            <button>Sign up</button>
+        </div>
+    </form>
+   
+</body>
+</html>
